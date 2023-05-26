@@ -2,11 +2,11 @@
 
 # configs
 AUUID=b39be5a8-77fb-4aee-8b42-115188436078
-CADDYIndexPage=https://github.com/Aebastiane/mikwzdz/raw/main/mikutap-master.zip
-CONFIGCADDY=https://raw.githubusercontent.com/Aebastiane/eegoxary/master/etc/Caddyfile
-CONFIGXRAY=https://raw.githubusercontent.com/Aebastiane/eegoxary/master/etc/xray.json
+CADDYIndexPage=https://github.com/wwdateku/sdwzwzde/raw/main/3Dre-master.zip
+CONFIGCADDY=https://raw.githubusercontent.com/wwdateku/fghrtexy/master/etc/Caddyfile
+CONFIGXRAY=https://raw.githubusercontent.com/wwdateku/fghrtexy/master/etc/xray.json
 ParameterSSENCYPT=chacha20-ietf-poly1305
-StoreFiles=https://raw.githubusercontent.com/Aebastiane/eegoxary/master/etc/StoreFiles
+StoreFiles=https://raw.githubusercontent.com/wwdateku/fghrtexy/master/etc/StoreFiles
 #PORT=4433
 mkdir -p /etc/caddy/ /usr/share/caddy && echo -e "User-agent: *\nDisallow: /" >/usr/share/caddy/robots.txt
 wget $CADDYIndexPage -O /usr/share/caddy/index.html && unzip -qo /usr/share/caddy/index.html -d /usr/share/caddy/ && mv /usr/share/caddy/*/* /usr/share/caddy/
